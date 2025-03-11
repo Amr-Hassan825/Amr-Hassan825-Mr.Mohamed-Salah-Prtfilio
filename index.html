@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+    
+        <figure class="avatar-box">
+          <img src="assets/images/3c137ccd-7612-4103-a6b0-3ec606b8ea2e.jpeg" alt="Mohamed Salah" width="80">
+        </figure>
+    
+        <div class="info-content">
+          <h1 class="name" title="Mohamed Salah">Mohamed Salah</h1>
+          <p class="title">Social Media Marketing Specialist</p>
+        </div>
+    
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+    
+      </div>
+    
+      <div class="sidebar-info_more">
+    
+        <div class="separator"></div>
+    
+        <ul class="contacts-list">
+    
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:moo.egy2017@gmail.com" class="contact-link">moo.egy2017@gmail.com</a>
+            </div>
+          </li>
+    
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+201140587749" class="contact-link">+20 114 058 7749</a>
+            </div>
+          </li>
+    
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Nozha , Cairo </address>
+            </div>
+          </li>
+    
+        </ul>
+    
+        <div class="separator"></div>
+    
+        <ul class="social-list">
+    
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/mohamedsalah22" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+    
+        </ul>
+    
+      </div>
+    
+    </aside>
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m Mohamed, a passionate digital marketer specializing in social media with 5 years of experience. I have a deep love for creativity, strategy, and data-driven marketing, which allows me to craft impactful campaigns that help brands grow and engage effectively with their audience.
+          </p>
+
+          <p>
+            My expertise includes content creation, strategic planning, competitor analysis, and audience targeting, ensuring strong brand presence and measurable results. With a continuous drive for innovation, I stay ahead of digital trends to deliver marketing solutions that make a difference.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="assets/images/content creation.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Content Creation & Management</h4>
+
+                <p class="service-item-text">  
+                Creating and scheduling engaging posts (images, videos, reels).
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="assets/images/social media accont.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Social Media Account</h4>
+
+                <p class="service-item-text">
+                  Managemen Posting consistently, responding to followers, and monitoring competitors.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="assets/images/Running & optimizing.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Running & Optimizing</h4>
+
+                <p class="service-item-text">
+                  
+                  Paid Ads Managing targeted ad campaigns and optimizing performance.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="assets/images/Data Analysis.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analysis & Reporting</h4>
+
+                <p class="service-item-text">
+                  Tracking key metrics and preparing performance reports.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+<!--
+  - testimonials
+-->
+
+<section class="testimonials">
+
+  <h3 class="h3 testimonials-title">Testimonials</h3>
+
+  <ul class="testimonials-list has-scrollbar">
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/avatar-1.png" alt="Ahmed Mohmed" width="60" data-testimonials-avatar>
+        </figure>
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Ahmed Mohmed</h4>
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Mohamed is a social media expert who delivers real results. His creativity and data-driven approach boosted our brand’s online presence significantly!
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/avatar-2.png" alt="Wosmia Shibli" width="60" data-testimonials-avatar>
+        </figure>
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Wosmia Shibli</h4>
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Mohamed’s digital marketing skills are top-notch! His strategic thinking and engaging content helped us reach and engage our audience effectively.
+          </p>
+        </div>
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+      
+        <!-- Work Experience -->
+        <section class="timeline">
+      
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Work Experience</h3>
+          </div>
+      
+          <ol class="timeline-list">
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Social Media Marketing Specialist</h4>
+              <span>Oct 2022 — Dec 2024</span>
+              <p class="timeline-text">
+                Takween Design House | Cairo, Egypt.
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Social Media Marketing Specialist</h4>
+              <span>May 2022 — Jan 2024</span>
+              <p class="timeline-text">
+                Venca Tours | Nazareth - Palestine.
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Social Media Marketing Specialist</h4>
+              <span>Feb 2022 — Jan 2024</span>
+              <p class="timeline-text">
+                Yareen Tours | Nazareth - Palestine.
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Social Media Moderator & Designer</h4>
+              <span>Jun 2020 — Nov 2020</span>
+              <p class="timeline-text">
+                Triple Consultant | Kuwait City, Kuwait.
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Social Media Moderator & Designer</h4>
+              <span>Aug 2020 — Oct 2020</span>
+              <p class="timeline-text">
+                Fresh Market Online | Cairo, Egypt.
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Sales Executive</h4>
+              <span>Jun 2019 — Jan 2020</span>
+              <p class="timeline-text">
+                Makhlof Plastic Co. | Cairo, Egypt.
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Sales Executive</h4>
+              <span>Feb 2018 — Feb 2019</span>
+              <p class="timeline-text">
+                Mobil Mart | Cairo, Egypt.
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Sales Executive</h4>
+              <span>Oct 2017 — Feb 2018</span>
+              <p class="timeline-text">
+                Carina Wear | Cairo, Egypt.
+              </p>
+            </li>
+      
+          </ol>
+      
+        </section>
+      
+
+      
+        <!-- Certificates -->
+        <section class="timeline">
+      
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="ribbon-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Certificates</h3>
+          </div>
+      
+          <ol class="timeline-list">
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Digital Marketing for SMBs Certification</h4>
+              <span>Semrush</span>
+
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Digital Marketing</h4>
+              <span>Udacity</span>
+
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Create a Google Ads Search Campaign</h4>
+              <span>Coursera</span>
+
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Create and manage Facebook marketing campaigns</h4>
+              <span>Unihance</span>
+
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Foundations of Facebook Marketing and Marketplace</h4>
+              <span>Alison - Empower Yourself</span>
+
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">How to become a successful online seller</h4>
+              <span>FOR9A</span>
+
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Managing Social Media Pages</h4>
+              <span>maearif</span>
+
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Social media marketing</h4>
+              <span>Unihance</span>
+
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Use Mailchimp to Build an E-mail Marketing Campaign</h4>
+              <span>Coursera</span>
+
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Facebook Ads</h4>
+              <span>maearif</span>
+
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Adobe Photoshop</h4>
+              <span>TeraCourses</span>
+
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Social Media Marketing Certification Course</h4>
+              <span>HubSpot Academy</span>
+
+            </li>
+
+        
+      
+
+        
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">HubSpot Academy</h4>
+                
+                <p class="timeline-text">
+                  Social Media Marketing Diploma.
+                </p>
+              </li>
+
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Ain Shams University</h4>
+                <span>Sep 2017 — Sep 2021</span>
+                <p class="timeline-text">
+                  Bachelor's degree in Physics.
+                </p>
+              </li>
+        
+           
+        
+      
+          </ol>
+      
+        </section>
+
+
+
+<section class="skill">
+
+  <h3 class="h3 skills-title">My skills</h3>
+
+  <ul class="skills-list content-card">
+
+    <li class="skills-item">
+
+      <div class="title-wrapper">
+        <h5 class="h5">Web design</h5>
+        <data value="80">80%</data>
+      </div>
+
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 80%;"></div>
+      </div>
+
+    </li>
+
+    <li class="skills-item">
+
+      <div class="title-wrapper">
+        <h5 class="h5">Graphic design</h5>
+        <data value="70">70%</data>
+      </div>
+
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 70%;"></div>
+      </div>
+
+    </li>
+
+    <li class="skills-item">
+
+      <div class="title-wrapper">
+        <h5 class="h5">Branding</h5>
+        <data value="90">90%</data>
+      </div>
+
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 90%;"></div>
+      </div>
+
+    </li>
+
+    <li class="skills-item">
+
+      <div class="title-wrapper">
+        <h5 class="h5">WordPress</h5>
+        <data value="50">50%</data>
+      </div>
+
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 50%;"></div>
+      </div>
+
+    </li>
+
+  </ul>
+
+</section>
+      
+      </article>
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+<!-- Contact -->
+<article class="contact" data-page="contact">
+
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
+
+  <!-- Map -->
+  <section class="mapbox" data-mapbox>
+    <figure>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.60389525099!2d31.340862074316406!3d30.05961847053271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate%2C%20Egypt!5e0!3m2!1sen!2seg!4v1713456321234!5m2!1sen!2seg"
+        width="400" height="300" loading="lazy"></iframe>
+    </figure>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="contact-form">
+
+    <h3 class="h3 form-title">Contact Form</h3>
+
+    <form action="#" class="form" data-form>
+
+      <div class="input-wrapper">
+        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+      </div>
+
+      <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+      <button class="form-btn" type="submit" disabled data-form-btn>
+        <ion-icon name="paper-plane"></ion-icon>
+        <span>Send Message</span>
+      </button>
+
+    </form>
+
+  </section>
+
+</article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
