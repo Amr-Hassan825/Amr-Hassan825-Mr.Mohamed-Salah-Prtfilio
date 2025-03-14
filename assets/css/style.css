@@ -1915,3 +1915,14 @@ textarea.form-input::-webkit-resizer { display: none; }
     transform: scale(1.2); /* تكبير أقل على الموبايل */
   }
 }
+
+/* استهداف الروابط في قائمة الاتصال */
+.contact-link {
+  color:#cdb15e; /* لون افتراضي - ممكن تغيره حسب ذوقك */
+  transition: color 0.3s ease; /* تأثير الانتقال لتغيير اللون بسلاسة خلال 0.3 ثانية */
+}
+
+/* تغيير اللون عند الـ hover */
+.contact-link:hover {
+  color: #cdb15e; /* لون أزرق كمثال - ممكن تغيره لأي لون تحبه */
+}
